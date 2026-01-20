@@ -200,68 +200,52 @@ p {
 }
 
 
-
-
-
-.gr {
-
-  background-color: #230E3D;
+.grid-box {
   display: grid;
-  justify-content: center;
-  align-items: center;
-  width: 61%;
-  margin: 0px auto;
-  color: white;
-  gap: 10px;
-
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  width: 71%;
+  justify-content: center;
+  margin: 20px auto;
+  gap: 10px;
+  padding: 15px;
 
 }
 
-.gr1 {
+
+
+
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5 {
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #351165;
+  border-radius: 8px;
+
+}
+
+.five {
+  background: none;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.box-1 {
   grid-row: span 2;
-  border-radius: 8px;
-
-  padding: 15px;
 
 }
 
-.gr2 {
+.box-2,
+.box-3,
+.box-4 {
   grid-column: span 2;
-  border-radius: 8px;
 
-  padding: 15px;
 }
-
-.gr3 {
-  grid-column: span 2;
-  border-radius: 8px;
-
-  padding: 15px;
-}
-
-.gr4 {
-  grid-column: span 2;
-  border-radius: 8px;
-
-  padding: 15px;
-}
-
-.gr5 {
-  grid-column: span 1;
-  border-radius: 8px;
-  padding: 15px;
-}
-
-.gr1,
-.gr2,
-.gr3,
-.gr4,
-.gr5 img {
-  width: fit-content;
-}
-
 
 
 /* mainsection future episod */
@@ -456,7 +440,7 @@ p {
   }
 
 
-  .gr {
+  .grid-box {
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
 
@@ -541,7 +525,7 @@ p {
 
 
 
-  .gr {
+  .grid-box {
     grid-template-columns: repeat(1, 1fr);
     width: 71%;
 
