@@ -17,6 +17,12 @@
   padding: 5px;
 }
 
+.btn:hover {
+  font-size: x-large;
+
+
+}
+
 .gredent {
   background: linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
   color: transparent;
@@ -26,7 +32,17 @@
 
 .col {
   color: #00FF88;
-  font-size: large;
+  font-size: small;
+  background: none;
+  padding: 4px;
+  border: 1px solid green;
+  border-radius: 15px;
+
+}
+
+.col:hover {
+  font-size: x-large;
+  background: linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
 
 }
 
@@ -45,6 +61,14 @@
   list-style: none;
   gap: 20px;
   font-size: small;
+}
+
+.nav-ab:hover {
+  font-size: larger;
+  border: 1px solid red;
+  border-radius: 8px;
+  padding: 5px;
+
 }
 
 /* hero section */
@@ -229,6 +253,20 @@ p {
 
 }
 
+
+
+.box-1:hover,
+.box-2:hover,
+.box-3:hover,
+.box-4:hover,
+.box-5:hover {
+  border: 2px solid red;
+  font-size: large;
+  padding: 20px;
+  background: linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+
+}
+
 .five {
   background: none;
   font-size: 1.5rem;
@@ -272,6 +310,11 @@ p {
   margin: 0 auto;
   gap: 7px;
   padding: 0px auto;
+}
+
+.future-cart div:hover {
+  background: linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+  font-size: x-large;
 }
 
 .future-cart div {
@@ -335,7 +378,12 @@ img {
 
   color: white;
   line-height: 15px;
-  /* background-color: #351165; */
+}
+
+.host:hover {
+  border: 2px solid yellowgreen;
+  background: linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+  border-radius: 50px;
 }
 
 .host1 .host div h3,
